@@ -172,13 +172,13 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  color: white;
+  color: #282c32;
   background-color: #282c32;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/JustColourGradient.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
 }
 
 header.masthead .intro-text {
