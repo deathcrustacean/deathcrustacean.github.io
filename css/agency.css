@@ -7,6 +7,7 @@
 body {
   overflow-x: hidden;
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  background-color: #212529
 }
 
 p {
@@ -586,19 +587,19 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#services {
-  background-color: #e3e3e3;
+  background-color: #282c32;
 }
 
 section#portfolio {
-  background-color: #c9c9c9;
+  background-color: #212529;
 }
 
 section#contact {
-  background-color: #e3e3e3;
+  background-color: #282c32;
 }
 
 section#footer {
-  background-color: #282c32;
+  background-color: #212529;
 }
 
 section#contact .form-group {
@@ -651,7 +652,6 @@ section#contact :-ms-input-placeholder {
   padding: 25px 0;
   text-align: center;
   color: white
-  background-color: #282c32;
 }
 
 .footer span.copyright {
