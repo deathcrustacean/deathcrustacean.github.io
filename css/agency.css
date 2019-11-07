@@ -177,9 +177,9 @@ header.masthead {
   background-color: #282c32;
   background-image: url("../img/JustColourGradient.png");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 header.masthead .intro-text {
