@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-  color: #fec503;
+  color: white;
 }
 
 .text-primary {
@@ -150,7 +150,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: white;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
