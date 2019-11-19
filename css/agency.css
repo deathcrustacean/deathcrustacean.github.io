@@ -173,7 +173,7 @@ img::-moz-selection {
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: transparent;
-    /* display: none; */
+    display: none;
   }
 
   /* .navbar-brand {
@@ -648,6 +648,14 @@ section#services {
   padding-bottom: 6vh;
 }
 
+@media (min-width: 992px) {
+  section#services {
+    padding-top: 40px;
+    background-color: #282c32;
+    padding-bottom: 6vh;
+  }
+}
+
 section#portfolio {
   background-color: #282c32;
   padding-bottom: 6vh;
@@ -660,6 +668,12 @@ section#contact {
 
 section#footer {
   background-color: #212529;
+}
+
+@media (max-width: 992px) {
+  #topfooterwhatadumbname {
+    display: none;
+  }
 }
 
 section#contact .form-group {
