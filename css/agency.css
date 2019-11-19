@@ -173,7 +173,25 @@ img::-moz-selection {
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: transparent;
+    /* display: none; */
   }
+
+  /* .navbar-brand {
+    float: none;
+  } */
+
+  .navbar-center
+  {
+    /* position: absolute; */
+    width: 95%;
+    /* left: 0;
+    top: 0; */
+    text-align: center;
+    margin: auto;
+    height:100%;
+  }
+
+
   #mainNav .navbar-brand {
     font-size: 1.75em;
     transition: all 0.3s;
