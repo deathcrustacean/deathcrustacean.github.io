@@ -665,6 +665,10 @@ section#services {
   }
 }
 
+#biopara1 {
+  padding-top: 8px;
+}
+
 section#portfolio {
   background-color: #282c32;
   padding-bottom: 6vh;
