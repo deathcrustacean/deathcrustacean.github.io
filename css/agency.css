@@ -737,7 +737,21 @@ section#contact :-ms-input-placeholder {
 
 /* #albumart {
   border:20px solid #212529;
+}
+
+#bphoto1 {
+  border:20px solid #212529;
+}
+
+#bphoto2 {
+  border:20px solid #212529;
+}
+
+#bphoto3 {
+  border:20px solid #212529;
 } */
+
+/* border:20px solid #212529; */
 
 .footer {
   padding: 25px 0;
