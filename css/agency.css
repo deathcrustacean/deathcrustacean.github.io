@@ -335,6 +335,13 @@ header.masthead .intro-text .intro-heading {
   opacity: 1;
 }
 
+/* Hack to disable image hover with zoom icon on small displays where zoom modals are disabled */
+@media (max-width: 576px) {
+  #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 0;
+  }
+}
+
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 20px;
   position: absolute;

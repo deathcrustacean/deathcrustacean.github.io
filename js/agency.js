@@ -42,4 +42,24 @@
   // // Collapse the navbar when page is scrolled
   // $(window).scroll(navbarCollapse);
 
+
+// Disable modals ("zoomed" images) on small displays
+function resizeHandler() {
+  var winWidth  = window.innerWidth,
+      threshold = 576,
+      els       = document.getElementsByClassName('portfolio-link');
+
+  [].forEach.call(els, function (el) {
+    if (winWidth < threshold) {
+      el.removeAttribute("data-toggle");
+    } else {
+      el.setAttribute("data-toggle", "modal");
+    }
+  });
+}
+// Make sure to trigger at least once on page load
+resizeHandler()
+// And add listener to trigger on any resizes
+window.addEventListener("resize", resizeHandler);
+
 })(jQuery); // End of use strict
